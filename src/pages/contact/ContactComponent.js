@@ -41,7 +41,7 @@ class Contact extends Component {
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
                   <Button
-                    text="Envoyer mail"
+                    text="Send mail"
                     newTab={true}
                     href="mailto:tambymampioninaheriharson@gmail.com"
                     theme={theme}

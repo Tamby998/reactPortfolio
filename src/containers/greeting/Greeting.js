@@ -20,13 +20,13 @@ export default function Greeting(props) {
                 {greeting.title}
               </h1>
               <h1 className="greeting-sub" style={{ color: theme.grayText }}>
-              C'est<mark data-entity="person">{greeting.sub}</mark>
+              It's<mark data-entity="person">{greeting.sub}</mark>
               </h1>
               <h1 className="greeting-typewriter" style={{color: theme.blue}}>
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Développeur")
+                      .typeString("Developer")
                       .pauseFor(200)
                       .deleteAll()
                       .typeString("Concepteur")
@@ -46,17 +46,17 @@ export default function Greeting(props) {
                 className="greeting-text-span subTitle"
                 style={{ color: theme.text }}>
                 <div className="entities">
-                  Passionné par <mark data-entity="web">la réalisation et le développement de projets web.</mark>{" "}
-                  je me suis tout naturellement tourné vers une carrière de{" "}
-                  <mark data-entity="skill">développeur web.</mark> Aujourd'hui je souhaite intégrer une entreprise{" "}
-                  <mark data-entity="verb">dynamique et jeune</mark>aussi je serai ravi de rejoindre votre équipe en tant que<mark data-entity="#">développeur web</mark>
+                  Passionate about <mark data-entity="web">the realization and development of web projects.</mark>{" "}
+                  I naturally turned to a career as a{" "}
+                  <mark data-entity="skill"> web developer.</mark> Today, I work with a{" "}
+                  <mark data-entity="verb">dynamic and international</mark> team on <mark data-entity="#">web projects</mark>
                 </div>
               </span>
               <CompetitiveSites logos={competitiveSites.competitiveSites} />
               <div className="button-greeting-div">
-                <Button text="Contactez moi" href="/contact" />
+                <Button text="Contact me" href="/contact" />
                 <Button
-                  text="Télécharger mon CV"
+                  text="Download my CV"
                   newTab={true}
                   href={greeting.resumeLink}
                 />

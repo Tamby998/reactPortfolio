@@ -16,10 +16,10 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Bonjour! Moi,",
+  title: "Hello! Me,",
   sub: "Tamby Mampionona",
   logo_name: "Tamby Mampionona",
-  resumeLink: "",
+  resumeLink: "https://drive.google.com/file/d/12jHgnxzVq4TumTyLeq5-rjz9Pe6lDA-V/view?usp=sharing",
 };
 
 // home logos
@@ -76,16 +76,16 @@ const competitiveSites = {
   ],
 };
 
-//Ce que je fais?
+//What I do?
 const skills = {
   data: [
     {
-      title: "Développement web",
+      title: "Web development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Création de sites Web réactifs à l'aide de HTML5, CSS3, BootStrap5, ReactJS et NodeJS",
-        "⚡ Création d'un backend d'application en PHP & MERN",
-        "⚡ Création d'un application en PHP(CodeInginer)",
+        "⚡ Building responsive websites using HTML5, CSS3, BootStrap5, ReactJS, and NodeJS",
+        "⚡ Creation of an application backend in PHP & MERN",
+        "⚡ Creating a PHP application (CodeIgniter)",
       ],
       softwareSkills: [
         {
@@ -151,8 +151,8 @@ const skills = {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Concevoir des interfaces utilisateur très attrayantes pour les applications Web",
-        "⚡ Personnalisation des conceptions de logo et création de logos à partir de Canva",
+        "⚡ Design very attractive user interfaces for web applications",
+        "⚡ Customize logo designs and create logos from Canva",
       ],
       softwareSkills: [
         {
@@ -196,7 +196,7 @@ const skills = {
       title: "Data Science & Analysis",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Connaissances sur NumPy, Tensorflow, Python, Pandas, Tableau",
+        "⚡ Knowledge of NumPy, Tensorflow, Python, Pandas, Tableau",
       ],
       softwareSkills: [
         {
@@ -252,7 +252,7 @@ const skills = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "Estimant posséder les compétences et qualités essentielles d'un bon développeur web, je suis persuadé que je saurai dûment compléter votre équipe. En outre j'espère sincèrement que ma candidature retiendra votre attention et que j'aurai l'honneur de compter parmi vos employés.",
+    "Believing that I have the essential skills and qualities of a good web developer, I am convinced that I will be able to properly complement your team. In addition, I sincerely hope that my candidacy will attract your attention and that I will have the honor to count among your employees.",
 };
 
 //project cards
@@ -263,7 +263,7 @@ const projectcards = {
       title: "Portfolio",
       img_path: "project-06.gif",
       description:
-        "Un portfolio est un dossier personnel dans lequel les acquis de formation et les acquis de l'expérience d'une personne sont définis et démontrés en vue d'une reconnaissance par un établissement d'enseignement ou un employeur",
+        "A portfolio is a personal file in which the learning outcomes and experience acquired by a person are defined and demonstrated with a view to recognition by an educational institution or an employer.",
       tags: [
         {
           lang: "React",
@@ -295,7 +295,7 @@ const projectcards = {
       title: "Publoc",
       img_path: "70361-searching.gif",
       description:
-        "PubLoc révolutionne la manière de chercher et de réserver des emplacements publicitaires a Madagascar.",
+        "PubLoc is revolutionizing the way to search and reserve advertising spaces in Madagascar.",
       tags: [
         {
           lang: "PHP",
@@ -324,9 +324,9 @@ const projectcards = {
     },
     {
       title: "Portfolio",
-      img_path: "porto.gif",
+      img_path: "project-06.gif",
       description:
-        "Un portfolio est un dossier personnel dans lequel les acquis de formation et les acquis de l'expérience d'une personne sont définis et démontrés en vue d'une reconnaissance par un établissement d'enseignement ou un employeur",
+        "A portfolio is a personal file in which the learning outcomes and experience acquired by a person are defined and demonstrated with a view to recognition by an educational institution or an employer.",
       tags: [
         {
           lang: "React",
@@ -345,11 +345,11 @@ const projectcards = {
           color: "#ff4b4b",
         },
         {
-          lang: "Netlify",
+          lang: "Vercel",
           color: "#3c0095",
         },
       ],
-      link: "http://tambymampionona.netlify.com/",
+      link: "http://tambymampionona.vercel.com/",
       code: "https://github.com/Tamby998/portfolioreact",
       linkcolor: "white",
     },
@@ -357,7 +357,7 @@ const projectcards = {
       title: "Memory React",
       img_path: "game.gif",
       description:
-        "Jeux de memory.",
+        "Game memory.",
       tags: [
         {
           lang: "React JS",
@@ -376,7 +376,7 @@ const projectcards = {
       title: "Calculator",
       img_path: "calculate.gif",
       description:
-        "Machine Calculatrice.",
+        "Calculator Machine.",
       tags: [
         {
           lang: "React",
@@ -396,45 +396,34 @@ const projectcards = {
 
 const resumeleft = {
   left: {
-    title: ["Expérience"],
+    title: ["Experience"],
     data: [
       {
-        title: "Développeur Logiciel",
+        title: "Software developer",
         subtitle: "Et Ceterum",
-        date: "Avril 2021 - en cours",
+        date: "Since Avril 2021 - In progress",
         content: [
-          "Développeur Web",
+          "Web developer",
         ],
       },
       {
-        title: "Concepteur Développeur",
-        subtitle: "Développeur FullStack au sein de Malaza Trading",
+        title: "Developer",
+        subtitle: "FullStack Developer within Malaza Trading",
         date: "Novembre 2020 - Mars 2021",
         content: [
-          "Concepteur(en charge d'indentifier les besoins utilisateurs et de les spécifies).",
-          "Développeur Web",
+          "Concepteur(in charge of identifying user needs and specifying them).",
+          "Web developer",
         ],
       },
       {
-        title: "Stage",
-        subtitle: "Stagiaire au sein de SuperVision",
+        title: "Traineeship",
+        subtitle: "Intern at SuperVision",
         date: "Nov 2018 - January 2019",
         content: [
-          "Concepteur(en charge d'indentifier les besoins utilisateurs et de les spécifies).",
-          "Développeur d'Application Web",
+          "Concepteur(in charge of identifying user needs and specifying them).",
+          "Web Application Developer",
         ],
       },
-      // {
-      //   title: "Summer Analytics Participant",
-      //   subtitle: "IIT Guwahati",
-      //   date: "April 2020 - June 2020",
-      //   content: [
-      //     "Learnt & applied various Machine Learning libraries",
-      //     "Had hands-on with Data Visualization techniques using matplotlib, plotly, streamlit",
-      //     "Understood and applied Neural networks using Tensorflow and finally competed in Kaggle Hackathon ranking 135 (top 16 percentile) among 854 Kaggle participants",
-      //     "Ranked 85 out of 1500+ students for overall performance.",
-      //   ],
-      // },
     ],
   },
 };
@@ -442,12 +431,12 @@ const resumeleft = {
 const resumeright = {
   right: [
     {
-      title: ["Éducation"],
+      title: ["Education"],
       data: [
         {
           title: "Master",
           subtitle: "IT University Andoharanofotsy",
-          date: "2021-en Cours",
+          date: "2021-In progress",
           content: ["Master 1"],
         },
         {
@@ -455,9 +444,9 @@ const resumeright = {
           subtitle: "IFT Fianarantsoa",
           date: "2016 - 2020",
           content: [
-            "3e Année de Licence",
-            "2e Année de Licence",
-            "1 ère Année de Licence",],
+            "3rd Year of License",
+            "2nd Year of License",
+            "1st Year of License",],
         },
       ],
     },
@@ -527,17 +516,17 @@ const certifications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contactez moi",
+    title: "Contact me",
     profile_image_path: "contact.jpg",
     description:
-      "Je suis disponible sur presque tous les réseaux sociaux. Vous pouvez m'envoyer un message, je vous répondrai dans les 24 heures.",
+      "I am available on almost all social networks. You can message me, I will reply to you within 24 hours.",
   },
   addressSection: {
-    title: "Addresse",
+    title: "Address",
     subtitle: "Antananarivo, Anjanahary IIO-167",
   },
   phoneSection: {
-    title: "Numéro de téléphone",
+    title: "Phone number",
     subtitle: "+261 340652221, +261 328672151",
   },
 };
